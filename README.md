@@ -1,11 +1,17 @@
-## Training and testing codes for DnCNN, FFDNet, SRMD, DPSR, MSRResNet, ESRGAN, IMDN
+# Colab-USRNet
+## Simply download `Colab-USRNet.ipynb` and open it inside your Google Drive or click [here](https://colab.research.google.com/drive/1iZPhjkbzwTL22AbjMnRsgwVuo3eVYb0s?usp=sharing) and copy the file with "File > Save a copy to Drive..." into your Google Drive. 
+### 
+
+## Aside USRNet, there are also training and testing codes for DnCNN, FFDNet, SRMD, DPSR, MSRResNet, ESRGAN and IMDN, but aren't pre-configured in Colab.
 [Kai Zhang](https://cszn.github.io/)
 
 *[Computer Vision Lab](https://vision.ee.ethz.ch/the-institute.html), ETH Zurich, Switzerland*
 
-_______
-**News**: [USRNet (CVPR 2020)](https://github.com/cszn/USRNet) will be added.
+#### Important information
 
+- If you can't open `Colab-USRNet.ipynb` inside your Google Drive, try this [colab link](https://colab.research.google.com/drive/1iZPhjkbzwTL22AbjMnRsgwVuo3eVYb0s?usp=sharing) and save it to your Google Drive. The "open in Colab"-button can be missing in Google Drive, if that person never used Colab.
+- Google Colab does assign a random GPU. It depends on luck.
+- The Google Colab VM does have a maximum session length of 12 hours. Additionally there is a 30 minute timeout if you leave colab. The VM will be deleted after these timeouts.
 
 Training
 ----------
